@@ -21,6 +21,7 @@
     <IISExpressUseClassicPipelineMode />
     <NuGetPackageImportStamp>65047319</NuGetPackageImportStamp>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -222,6 +223,9 @@
       <Project>{1aa4f97b-967a-4420-b3cc-ef1efbaa72f8}</Project>
       <Name>Paysafe</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
